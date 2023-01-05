@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20230103 15:54:59.762" schemaversion="2" generator="Robot 4.1.3 (Python 2.7.14 on win32)">
+<suite source="C:\MyTests\Tests\ArgumentsDemo.robot" id="s1" name="ArgumentsDemo">
+<test id="s1-t1" name="Argument demo">
+<kw name="Test Case 1">
+<arg>${arg1}</arg>
+<arg>${arg2}</arg>
+<doc>testing arguments</doc>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${arg1} ${arg2}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" endtime="20230103 15:54:59.795" starttime="20230103 15:54:59.794"/>
+</kw>
+<status status="PASS" endtime="20230103 15:54:59.795" starttime="20230103 15:54:59.794"/>
+</kw>
+<doc>testing arguments</doc>
+<status status="PASS" endtime="20230103 15:54:59.795" starttime="20230103 15:54:59.793"/>
+</test>
+<doc>testing arguments in robot framework</doc>
+<status status="PASS" endtime="20230103 15:54:59.795" starttime="20230103 15:54:59.766"/>
+</suite>
+<statistics>
+<total>
+<stat fail="0" skip="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" skip="0" id="s1" name="ArgumentsDemo" pass="1">ArgumentsDemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
